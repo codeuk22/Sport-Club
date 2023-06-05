@@ -1,0 +1,245 @@
+.menu {
+  width: 100%;
+  height: 600px;
+  background: url(https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+    no-repeat center center/cover;
+}
+.main {
+  height: 86px;
+}
+
+.nav1 {
+  float: left;
+  width: 500px;
+}
+
+.nav2 {
+  float: left;
+  padding-top: 19px;
+  width: 470px;
+}
+
+.nav3 {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: beige;
+  font-size: 25px;
+  padding: 15px 24px;
+}
+
+.write {
+  font-size: 25px;
+  text-align: center;
+  color: aliceblue;
+  width: 500px;
+  margin: 134px 440px;
+}
+
+.check {
+  /* border: 2px solid black; */
+  height: 500px;
+  background-color: grey;
+}
+
+.col1 {
+  float: left;
+  width: 50%;
+  height: 500px;
+  border-radius: 1px solid black;
+  text-align: center;
+}
+
+.col1 > p {
+  width: 30%;
+  margin-left: 260px;
+}
+
+.col1 > h1 {
+  font-size: 50px;
+}
+
+.col2 {
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.col2-row1-col1 {
+  float: left;
+  margin-left: 25px;
+}
+
+.col2-row1-col2 {
+  float: left;
+  margin-left: 10px;
+}
+
+.col2-row1-col3 {
+  margin-left: 10px;
+  float: left;
+}
+
+.col2-row2-col1 {
+  float: left;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.col2-row2-col2 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.col2-row2-col3 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.price {
+  height: 590px;
+  background-color: grey;
+  /* text-align: center; */
+}
+
+.price > div > h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.price > div > p {
+  text-align: center;
+  width: 450px;
+  margin-left: 530px;
+}
+
+.free {
+  background-color: white;
+  height: 350px;
+  width: 30%;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  float: left;
+  margin-top: 15px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.free > h3 {
+  margin-top: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.free > center > span {
+  font-size: 20px;
+}
+
+.free > p {
+  font-size: 25px;
+}
+
+.monthly {
+  background-color: white;
+  height: 350px;
+  width: 30%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  float: left;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.monthly > h3 {
+  margin-top: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.monthly > center > span {
+  font-size: 20px;
+}
+
+.monthly > p {
+  font-size: 25px;
+}
+
+.yearly {
+  background-color: white;
+  height: 350px;
+  width: 30%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  float: left;
+  margin-top: 15px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.yearly > h3 {
+  margin-top: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.yearly > center > span {
+  font-size: 20px;
+}
+
+.yearly > p {
+  font-size: 25px;
+}
+.weight {
+  height: 590px;
+  /* background-color: lightblue; */
+}
+.weight-col1 {
+  float: left;
+  width: 50%;
+  height: 590px;
+  border-radius: 3px solid black;
+  text-align: center;
+  background-color: aliceblue;
+  /* margin-top: 25px; */
+}
+.weight-col1 > h3 {
+  margin-top: 10px;
+  font-size: 35px;
+  /* text-align: center; */
+  margin-top: 150px;
+  width: 30%;
+  margin-left: 250px;
+}
+.weight-col1 > p {
+  margin-top: 0px;
+  font-size: 20px;
+  /* text-align: center; */
+  /* margin-top: 150px */
+  width: 40%;
+  margin-left: 220px;
+}
+.weight-col2 {
+  float: left;
+  width: 50%;
+  height: 590px;
+  background-color: aliceblue;
+}
+.weight-col2 > img {
+  border-radius: 50%;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: lightsalmon;
+}
